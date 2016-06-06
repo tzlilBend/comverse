@@ -1,0 +1,332 @@
+.clear-fix:before,
+.clear-fix:after {
+	content: " "; /* 1 */
+	display: table; /* 2 */
+}
+
+.clear-fix:after {
+	clear: both;
+}
+@font-face {
+font-family: FormataLight;
+src: url(../fonts/Formata-LightCondensed.otf);
+}
+
+@font-face {
+font-family: Formata;
+src: url(../fonts/Formata-Light.otf);
+}
+
+
+[class*="Btn"], a{
+	background: none;
+	border: none;
+	padding: 0;
+	color: inherit;
+	text-decoration: none;
+}
+
+.textColor1{
+color: #585951;
+}
+
+.textColor2{
+color: white;
+}
+
+.textSize1{
+font-size: 0.9em;
+}
+
+.textSize2{
+font-size: 2.5em;
+}
+
+.textSize3{
+font-size: 1.2em;
+}
+
+.font1{
+font-family: FormataLight;
+font-weight: 500;
+}
+
+.font2{
+font-family: Formata;
+font-weight: 700;
+}
+
+.font3{
+	font-family: Formata;
+	font-weight: normal;
+	}
+
+.brand-color1{
+/*blue*/
+background: #2E95CA;
+}
+.brand-color2{
+/*pink*/
+background: #FF3399;
+}
+.brand-color3{
+/*green*/
+background: #66CC33;
+}
+.brand-color4{
+/*orange*/
+background: #FF6600;
+}
+.brand-color5{
+background: ;
+}
+
+h1{
+	letter-spacing: 0.09em;
+	line-height: 1.1em;
+	margin: 0;
+}
+
+h3{
+	margin: 0;
+	font-weight: inherit;
+	line-height: 1.3em;
+}
+
+.longBtn{
+height: 35px;
+border-radius: 3px;
+padding: 0 10px 0 10px;
+}
+
+
+.Learn{
+padding-right: 55px;
+
+}
+body{
+margin: 0;
+font-family: sans-serif;
+
+}
+
+.container{
+	overflow: hidden;
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+
+header{
+height: 90px;
+background: white;
+}
+
+.logoHeader{
+padding-top: 10px;
+}
+
+.main_nav{
+display: inline-block;
+}
+.nav_ul{
+padding: 0 10px 0 10px;
+margin: 0;
+vertical-align: center;
+}
+
+.nav_title{
+display: inline-block;
+margin: 0 10px 0 10px;
+}
+
+.Top_right_mini_menu{
+position: absolute;
+right: 0;
+top: 0;
+}
+
+.language{
+border: none;
+}
+
+.nav_line{
+transform: translate(0,5px);
+}
+
+.nimi_menu_line{
+transform: translate(-3px,5px);
+}
+
+.login{
+color: inherit;
+text-decoration: inherit;
+}
+
+.search_box{
+border: 1px solid #D2D2D2;
+border-radius: 7px;
+display: inline-block;
+height: 20px;
+position: absolute;
+right: 0;
+bottom: 0;
+overflow: hidden;
+}
+
+.search_fild{
+width: 120px;
+border: 0;
+outline: 0;
+padding: 0;
+display: inline-block;
+transform: translate(0,-5px);
+}
+
+
+.searchBtn{
+transform: translate(0,-5px);
+
+}
+
+.searchImg{
+height: 0.7em;
+margin-right: 0.3em;
+}
+
+.slide{
+	height: 300px;
+}
+
+.slides{
+	overflow: hidden;
+	height: 550px;
+	position: relative;
+}
+
+#bg1{
+
+	right:0;
+	background : url(../img/slidePic1.jpg) no-repeat;
+	background-position: 50% 0;
+	background-attachment: fixed;
+	transition: all 2000ms ease;
+
+}
+
+#bg2{
+
+	right:0;
+	background : url(../img/slidePic2.png) no-repeat;
+	background-position: 50% 0;
+	background-attachment: fixed;
+	transition: all 2000ms ease;
+}
+#bg3{
+
+	right:0;
+	background : url(../img/slidePic3.jpg) no-repeat;
+	background-position: 50% 0;
+	background-attachment: fixed;
+	transition: all 2000ms ease;
+}
+#bg4{
+
+	right:0;
+	background : url(../img/slidePic4.jpg) no-repeat;
+	background-position: 50% 0;
+	background-attachment: fixed;
+	transition: all 2000ms ease;
+}
+
+
+.bg{
+	position: absolute;
+	height:100%;
+	width: 100%;
+	box-shadow: inset 0px 5px 10px 0px rgba(0,0,0,0.1);
+}
+
+.textBox{
+padding: 55px 0 20px 0;
+
+}
+
+.textBoxSubTitles{
+	letter-spacing: 0.02em;
+	font-size: 1.1em;
+	line-height: 1.5em;
+	list-style:inside circle;
+	padding-left:0;
+	margin:  1.1em 0 0 0;
+}
+.squares{
+	margin-top: 1.1em;
+}
+
+.fa-square{
+	font-size: 0.8em;
+	margin-left: 7px;
+	transition: all 1000ms;
+}
+.active-square{
+	color: #2E95CA;
+
+}
+.lower-container{
+	height: 100%;
+	top: 55%;
+}
+
+.boxes{
+	padding-top: 25px;
+	position: absolute;
+}
+.box{
+	height: 175px;
+	width :290px;
+	float: left;
+	border-radius: 0.5em;
+	opacity: 0.9;
+	padding: 25px 15px 10px 15px;
+	margin-right: 23px;
+	box-sizing: border-box;
+		/*display: inline-block;*/
+}
+
+.box:hover{
+opacity: 1;
+}
+
+.detailsBtn{
+	margin-top:30px ;
+	display: inline-flex;
+}
+.detailsBtnTxt{
+	margin-top: 7px;
+	margin-left:10px;
+	font-weight: bold;
+}
+.solutions{
+	height: 420px;
+	background:url(../img/weDoBG.png) repeat 0 0,
+	radial-gradient(ellipse at center, #59bedb 0%,#39C 100%);
+}
+
+.events{
+	height: 450px;
+}
+
+.successStories{
+	height: 570px;
+	background: #ECECEC;
+}
+
+footer{
+	height: 320px;
+	background: #222222;
+}
+.figures{
+	display: flex;
+	flex-wrap: wrap;
+}
